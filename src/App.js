@@ -20,9 +20,6 @@ class App extends Component {
         this.setState(
           () => {
             return { monsters: users }
-          },
-          () => {
-            console.log(this.state)
           }
         ))
   }
